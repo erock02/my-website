@@ -1,7 +1,11 @@
+import Resume from "./components/resume";
+
 function App() {
   return (
     <div className="App">
-      <h1> Eric Espindola</h1>
+      <div className="pdf-container">
+        <Resume />
+      </div>
     </div>
   );
 }
