@@ -7,12 +7,12 @@ function Resume() {
       <div
         style={{
           border: "1px solid rgba(0, 0, 0, 0.3)",
-          height: "750px",
+          height: "100%",
+          width: "100%",
         }}
       >
         <Viewer fileUrl="/Eric_Espindola_Chavez_Resume.pdf" />
       </div>
-      ;
     </Worker>
   );
 }
