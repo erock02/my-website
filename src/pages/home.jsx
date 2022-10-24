@@ -32,7 +32,6 @@ class Home extends Component {
               color: "white",
             }}
           >
-            {" "}
             About me
           </h1>
           <h4
