@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 
 class Footer extends Component {
   render() {
