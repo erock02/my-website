@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-// import { MdEmail } from "react-icons/md";
+// import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 class Footer extends Component {
   render() {
@@ -14,7 +14,7 @@ class Footer extends Component {
           </div>
 
           <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
-            <li className="ms-3">
+            {/* <li className="ms-3">
               <a
                 className="text-muted"
                 href="https://www.linkedin.com/in/eric-espindola-b9620a158/"
@@ -23,8 +23,8 @@ class Footer extends Component {
                   <FaLinkedin color="white" size="2em" />
                 </svg>
               </a>
-            </li>
-            {/* <li className="ms-3">
+            </li> */}
+            <li className="ms-3">
               <svg className="bi" width="50" height="50">
                 <MdEmail
                   color="white"
@@ -34,14 +34,14 @@ class Footer extends Component {
                   }
                 />
               </svg>
-            </li> */}
-            <li className="ms-3">
+            </li>
+            {/* <li className="ms-3">
               <a className="text-muted" href="https://github.com/erock02">
                 <svg className="bi" width="50" height="50">
                   <FaGithub color="white" size="2em" />
                 </svg>
               </a>
-            </li>
+            </li> */}
           </ul>
         </footer>
       </div>
