@@ -1,7 +1,7 @@
 import NavBar from "./components/navbar";
 import "./App.css";
 import beach from "./beach.jpg";
-import Footer from "./components/footer";
+// import Footer from "./components/footer";
 
 function App() {
   return (
