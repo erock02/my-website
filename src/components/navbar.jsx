@@ -6,9 +6,14 @@ class NavBar extends Component {
   render() {
     return (
       <BrowserRouter>
-        <nav className="navbar navbar-expand-lg bg-light">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="/">
+        <nav className="navbar pt-0 navbar-expand-lg">
+          <div
+            className="container-fluid"
+            style={{
+              backgroundColor: "rgba(0,0,0, .4)",
+            }}
+          >
+            <a className="navbar-brand" href="/" style={{ color: "lightcyan" }}>
               Eric Espindola Chavez
             </a>
             <button
@@ -29,7 +34,7 @@ class NavBar extends Component {
                     end
                     to="/"
                     style={({ isActive }) => ({
-                      color: isActive ? "blue" : "black",
+                      color: isActive ? "blue" : "lightcyan",
                     })}
                   >
                     Home
@@ -40,7 +45,7 @@ class NavBar extends Component {
                     to="resume"
                     exact="false"
                     style={({ isActive }) => ({
-                      color: isActive ? "blue" : "black",
+                      color: isActive ? "blue" : "lightcyan",
                     })}
                   >
                     Resume
