@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+// import { MdEmail } from "react-icons/md";
 
 class Footer extends Component {
   render() {
@@ -23,7 +23,7 @@ class Footer extends Component {
                   <FaLinkedin color="white" size="2em" />
                 </svg>
               </a>
-            </li>
+            {/* </li>
             <li className="ms-3">
               <svg className="bi" width="50" height="50">
                 <MdEmail
@@ -34,7 +34,7 @@ class Footer extends Component {
                   }
                 />
               </svg>
-            </li>
+            </li> */}
             <li className="ms-3">
               <a className="text-muted" href="https://github.com/erock02">
                 <svg className="bi" width="50" height="50">
