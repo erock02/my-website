@@ -13,19 +13,24 @@ class Footer extends Component {
             </span>
           </div>
 
-          <ul className="nav col-md-4 justify-content-center list-unstyled d-flex">
+          <ul className="nav col-md-4 mb-3 justify-content-center list-unstyled d-flex">
             <li className="ms-3">
-              <a
-                className="text-muted"
-                href="https://www.linkedin.com/in/eric-espindola-b9620a158/"
+              <div
+                className="list-background"
+                style={{ backgroundColor: "white" }}
               >
-                <svg className="bi" width="50" height="50">
-                  <FaLinkedin color="white" size="2em" />
-                </svg>
-              </a>
+                <a
+                  className="text-muted"
+                  href="https://www.linkedin.com/in/eric-espindola-b9620a158/"
+                >
+                  <svg className="bi" width="2rem" height="2rem">
+                    <FaLinkedin color="blue" size="2em" />
+                  </svg>
+                </a>
+              </div>
             </li>
             <li className="ms-3">
-              <svg className="bi" width="50" height="50">
+              <svg className="bi" width="2rem" height="2rem">
                 <MdEmail
                   color="white"
                   size="2em"
@@ -36,11 +41,16 @@ class Footer extends Component {
               </svg>
             </li>
             <li className="ms-3">
-              <a className="text-muted" href="https://github.com/erock02">
-                <svg className="bi" width="50" height="50">
-                  <FaGithub color="white" size="2em" />
-                </svg>
-              </a>
+              <div
+                className="list-background"
+                style={{ backgroundColor: "white" }}
+              >
+                <a className="text-muted" href="https://github.com/erock02">
+                  <svg className="bi" width="2rem" height="2rem">
+                    <FaGithub color="black" size="2em" />
+                  </svg>
+                </a>
+              </div>
             </li>
           </ul>
         </footer>
